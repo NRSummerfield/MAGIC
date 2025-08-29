@@ -1,6 +1,6 @@
 # Modality-AGnostic Image Cascade (MAGIC)
 
-This work is available on [ArXiv](https://arxiv.org/abs/2506.10797) and has been submitted to the Green journal.
+This work is currently available on [ArXiv](https://arxiv.org/abs/2506.10797).
 
 Repository for MAGIC, a segmentation framework for multi-modal and overlapping semantic segmentation.
 
