@@ -60,6 +60,8 @@ To achieve this type of multi-task output with a single encoding step, MAGIC pre
 
 Once initialized, MAGIC contains a dictionary of callable functions that act as complete models to return the stacked output as above
 ```
-MAGIC = MAGIC_framework( ... ) # Initialize MAGIC
-predictor_model_modality_1: Callabel[[torch.Tensor], torch.Tensor] = MAGIC.tricks[modality_1] # Get the modality-specific, callable function that makes the prediction
+# Initialize MAGIC
+MAGIC = MAGIC_framework( ... )
+# Get the modality-specific, callable function that makes the prediction
+predictor_model_modality_1: Callabel[[torch.Tensor], torch.Tensor] = MAGIC.tricks[modality_1]
 ```
